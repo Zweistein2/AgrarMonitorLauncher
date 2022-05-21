@@ -1,6 +1,6 @@
 #include "Plumber.h"
 
-#define BUFSIZE 16384
+#define BUFSIZE 32768
 
 LPCWSTR nameOfPipe = TEXT("\\\\.\\pipe\\plumber");  // global variable representing the named pipe
 JavaVM* jvm = NULL;                                 // global variable representing jvm
