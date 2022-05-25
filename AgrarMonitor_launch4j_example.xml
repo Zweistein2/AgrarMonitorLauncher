@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>console</headerType>
+  <jar>ABSOLUTE_PATH_TO_YOUR_PROJECT_ROOT\build\libs\AgrarMonitor.jar</jar>
+  <outfile>ABSOLUTE_PATH_TO_YOUR_OUTPUT-PATH\AgrarMonitor.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl>https://adoptium.net/?variant=openjdk17&amp;jvmVariant=hotspot</downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest></manifest>
+  <icon>ABSOLUTE_PATH_TO_YOUR_FAVICON\favicon.ico</icon>
+  <jre>
+    <path>%JAVA_HOME%;jre</path>
+    <bundledJre64Bit>true</bundledJre64Bit>
+    <bundledJreAsFallback>false</bundledJreAsFallback>
+    <minVersion></minVersion>
+    <maxVersion></maxVersion>
+    <jdkPreference>preferJre</jdkPreference>
+    <runtimeBits>64/32</runtimeBits>
+  </jre>
+  <versionInfo>
+    <fileVersion>1.0.0.0</fileVersion>
+    <txtFileVersion>1.0.0</txtFileVersion>
+    <fileDescription>A small website monitoring your farming simulator 22 savegames</fileDescription>
+    <copyright>Fabian Karolat (Zweistein2)</copyright>
+    <productVersion>1.0.0.0</productVersion>
+    <txtProductVersion>1.0.0</txtProductVersion>
+    <productName>AgrarMonitor</productName>
+    <companyName></companyName>
+    <internalName>AgrarMonitor</internalName>
+    <originalFilename>AgrarMonitor.exe</originalFilename>
+    <trademarks></trademarks>
+    <language>ENGLISH_US</language>
+  </versionInfo>
+</launch4jConfig>

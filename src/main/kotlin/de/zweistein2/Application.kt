@@ -40,7 +40,7 @@ fun main(args: Array<String>) {
         host = hostArg.split("=")[1]
     }
 
-    var port = properties.getProperty("port").toIntOrNull()
+    var port = properties.getProperty("port")?.toIntOrNull()
     if(portArg == null) {
         if(port == null) {
             port = 8080
